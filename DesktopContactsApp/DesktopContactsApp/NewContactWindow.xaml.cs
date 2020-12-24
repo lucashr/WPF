@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DesktopContactsApp.Classes;
+using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +17,7 @@ using System.Windows.Shapes;
 namespace DesktopContactsApp
 {
     /// <summary>
-    /// Lógica interna para NewContactWindow.xaml
+    /// Interaction logic for NewContactWindow.xaml
     /// </summary>
     public partial class NewContactWindow : Window
     {
@@ -26,6 +28,18 @@ namespace DesktopContactsApp
 
         private void saveButton_Click(object sender, RoutedEventArgs e)
         {
+            Contact contact = new Contact()
+            {
+                Name = nameTextBox.Text,
+                Email = emailTextBox.Text,
+                Phone = phoneNumberTextBox.Text
+            };
+
+            using (SQLiteConnection connection = new SQLiteConnection(App.databasePath))
+            {
+                connection.CreateTable<Contact>();
+                connection.Insert(contact);
+            }
 
             Close();
         }

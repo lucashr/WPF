@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopContactsApp", "DesktopContactsApp\DesktopContactsApp.csproj", "{2DE345CB-8303-4086-9583-59FA0030B410}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopContactsApp", "DesktopContactsApp\DesktopContactsApp.csproj", "{DBB1C4C5-DE40-4698-9467-EFA4662F2BE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DE345CB-8303-4086-9583-59FA0030B410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DE345CB-8303-4086-9583-59FA0030B410}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DE345CB-8303-4086-9583-59FA0030B410}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DE345CB-8303-4086-9583-59FA0030B410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB1C4C5-DE40-4698-9467-EFA4662F2BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB1C4C5-DE40-4698-9467-EFA4662F2BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB1C4C5-DE40-4698-9467-EFA4662F2BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB1C4C5-DE40-4698-9467-EFA4662F2BE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C97C1669-44B3-459C-AABA-2C35399A2589}
+		SolutionGuid = {91E2DDD7-965D-4D26-AE29-F6C3933A6018}
 	EndGlobalSection
 EndGlobal
